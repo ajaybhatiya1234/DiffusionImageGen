@@ -11,7 +11,7 @@ from diffusers import StableDiffusionPipeline
 # Create the app
 app = tk.Tk()
 app.geometry("532x632")
-app.title("Stable Bud") 
+app.title("Text->Image") 
 ctk.set_appearance_mode("dark") 
 
 prompt = ctk.CTkEntry(master=app, height=40, width=512, font=("Arial", 20), text_color="black", fg_color="white") 
